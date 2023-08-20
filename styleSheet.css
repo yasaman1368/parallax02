@@ -1,0 +1,45 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 8000px;
+  background-color: #f5e4b7;
+}
+.page1,
+.page2,
+.page3 {
+  width: 100%;
+  height: 900px;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+}
+.page1 h2,
+.page2 h1 {
+  position: absolute;
+  font-size: 5vw;
+  left: 26vw;
+  bottom: 50%;
+}
+.page2 h1 span {
+  display: inline-block;
+  /* position: absolute; */
+}
+.page1 {
+  font-size: 40px;
+  background-color: #d19c1d;
+  z-index: 3;
+}
+.page2 {
+  z-index: 2;
+  font-size: 40px;
+  background-color: #bad44f;
+  color: inherit;
+}
+.page3 {
+  z-index: 1;
+  background-color: #9be564;
+  background: url("images/pexels-max-fischer-5212334.jpg") no-repeat
+    center fixed;
+  background-size: cover;
+}
